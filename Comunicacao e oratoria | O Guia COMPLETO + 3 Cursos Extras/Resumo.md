@@ -7,12 +7,8 @@
 | Palavra | Substituir por| Explicação    |
 | ------------- |  -------------|  -------------|
 | Ideia  | Solução/Proposta/Resposta  | Explicada em aula |
-| Content Cell  | Content Cell  |
-
-
-
-|Eu acho...|Eu acredito que [...] porque [...]|Explicada em aula|
-|Eu preciso...|Coloque a necessidade como foco e não você|Explicada em aula|
+| Eu acho...  | Eu acredito que [...] porque [...]  |Explicada em aula |
+| Eu preciso... | Coloque a necessidade como foco e não você | Explicada em aula |
 |Injusto|Justo|Explicada em aula|
 |Eu gosto|É importante que / É essencial que| Imagine que, durante uma negociação, lhe perguntam a forma de pagamento e você diz:
 
