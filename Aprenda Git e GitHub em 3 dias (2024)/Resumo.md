@@ -56,9 +56,9 @@ O comando ```git mv <oldfilename> <newfilename>``` é usado para renomear ou mov
 Para modificar o último commit é ```git commit --amend -m "message"```. Esse comando permite que você altere a mensagem do último commit ou inclua novas alterações nele, sem criar um novo commit.
 Aula 17:
 
-    • ```git reset --soft <commit>```: Move o ponteiro HEAD para o commit especificado, mas deixa o staging area e o diretório de trabalho como estão, permitindo que você recrie o commit com alterações diferentes se desejar.
-    • ```git reset --mixed <commit>``` (padrão): Move o ponteiro HEAD para o commit especificado e atualiza o staging area para corresponder a esse commit, mas deixa o diretório de trabalho inalterado. Alterações que estavam staged agora estão unstaged, mas ainda presentes.
-    • ```git reset --hard <commit>```: Move o ponteiro HEAD para o commit especificado, atualiza o staging area e o diretório de trabalho para corresponder a esse commit, descartando todas as alterações no diretório de trabalho e no staging area que não estavam presentes no commit especificado.
+* ```git reset --soft <commit>```: Move o ponteiro HEAD para o commit especificado, mas deixa o staging area e o diretório de trabalho como estão, permitindo que você recrie o commit com alterações diferentes se desejar.
+* ```git reset --mixed <commit>``` (padrão): Move o ponteiro HEAD para o commit especificado e atualiza o staging area para corresponder a esse commit, mas deixa o diretório de trabalho inalterado. Alterações que estavam staged agora estão unstaged, mas ainda presentes.
+* ```git reset --hard <commit>```: Move o ponteiro HEAD para o commit especificado, atualiza o staging area e o diretório de trabalho para corresponder a esse commit, descartando todas as alterações no diretório de trabalho e no staging area que não estavam presentes no commit especificado.
 
 
 ## Aula 18:
