@@ -66,27 +66,30 @@ Imagine uma classe *UserManager* que gerencia usuários em um sistema.
 Ela tem responsabilidades demais: adicionar um novo usuário, remover um
 usuário e, além disso, gerenciar a autenticação do usuário.
 
-*class UserManager:*
+```python
+class UserManager:
 
-* def \_\_init\_\_(self):*
+def \_\_init\_\_(self):
 
-* self.users = \[\]*
+self.users = \[\]
 
-* def add_user(self, user):*
+def add_user(self, user):
 
-* self.users.append(user)*
+self.users.append(user)
 
-* def remove_user(self, user):*
+def remove_user(self, user):
 
-* self.users.remove(user)*
+self.users.remove(user)
 
-* def authenticate_user(self, user, password):*
+def authenticate_user(self, user, password):
 
-* \# Verifica se o usuário existe e se a senha está correta*
+\# Verifica se o usuário existe e se a senha está correta
 
-* print(f\"Autenticando {user}\")*
+print(f\"Autenticando {user}\")
 
-* \# Supõe-se aqui uma lógica de autenticação*
+\# Supõe-se aqui uma lógica de autenticação
+
+```
 
 ### Refatoração Conforme o SRP
 
