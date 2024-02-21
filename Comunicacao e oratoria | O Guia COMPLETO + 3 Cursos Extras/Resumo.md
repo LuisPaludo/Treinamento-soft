@@ -4,6 +4,12 @@
 
 * Mudar padrões de fala
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 |Ideia|Solução/Proposta/Resposta|Explicada em aula|
 |Eu acho...|Eu acredito que [...] porque [...]|Explicada em aula|
 |Eu preciso...|Coloque a necessidade como foco e não você|Explicada em aula|
