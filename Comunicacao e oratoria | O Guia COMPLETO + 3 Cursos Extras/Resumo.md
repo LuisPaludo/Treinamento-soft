@@ -10,20 +10,9 @@
 | Eu acho...  | Eu acredito que [...] porque [...]  |Explicada em aula |
 | Eu preciso... | Coloque a necessidade como foco e não você | Explicada em aula |
 |Injusto|Justo|Explicada em aula|
-|Eu gosto|É importante que / É essencial que| Imagine que, durante uma negociação, lhe perguntam a forma de pagamento e você diz:
-
-"Senhor, eu gosto de receber adiantado pelo meu serviço."
-
-Ninguém aceita ou faz algo porque você simplesmente "gosta". A expressão acima passa fragilidade e insegurança sobre a sua necessidade de algo. Troque por uma justifica plausível:
-
-"Devido a custos e responsabilidades que terei desde o início, é essencial combinarmos o adiantamento de 50% do pagamento, por favor."|
-|Você não entende|Tente me entender por favor|Imagine que você precisa trabalhar num Domingo e seu companheiro(a) reclama enfaticamente disto.
-
-Neste momento, dizer "você não entende" pode soar ofensivo.
-
-Uma forma mais eficaz seria dizer, calmamente:
-
-"Amor, tente me entender por favor. Eu estou sob pressão no trabalho e preciso abrir mão do tempo com a família hoje, mesmo sendo Domingo, para fazer um relatório melhor pro meu gerente"|
+|Eu gosto|É importante que / É essencial que| Imagine que, durante uma negociação, lhe perguntam a forma de pagamento e você diz: "Senhor, eu gosto de receber adiantado pelo meu serviço." Ninguém aceita ou faz algo porque você simplesmente "gosta". A expressão acima passa fragilidade e insegurança sobre a sua necessidade de algo. Troque por uma justifica plausível: "Devido a custos e responsabilidades que terei desde o início, é essencial combinarmos o adiantamento de 50% do pagamento, por favor."|
+|Você não entende|Tente me entender por favor|Imagine que você precisa trabalhar num Domingo e seu companheiro(a) reclama enfaticamente disto. 
+Neste momento, dizer "você não entende" pode soar ofensivo. Uma forma mais eficaz seria dizer, calmamente: "Amor, tente me entender por favor. Eu estou sob pressão no trabalho e preciso abrir mão do tempo com a família hoje, mesmo sendo Domingo, para fazer um relatório melhor pro meu gerente"|
 
 ## Seção 02:
 
