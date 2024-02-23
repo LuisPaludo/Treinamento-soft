@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Tópicos principais abordados no projeto
+
+1. Observables 
+2. Inputs
+3. Icones personalizados com uma biblioteca (fa-icon)
+4. Boas práticas com observables
+5. NgOnInit e NgOnDestroy
+6. Formulários Reativos
+7. Requisições de API
+8. Montagem e implementação de interfaces
