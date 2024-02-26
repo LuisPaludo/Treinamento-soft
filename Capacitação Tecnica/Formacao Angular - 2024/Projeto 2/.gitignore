@@ -5,7 +5,8 @@
 /tmp
 /out-tsc
 /bazel-out
-
+/API
+/stock-api
 
 # Node
 /node_modules
