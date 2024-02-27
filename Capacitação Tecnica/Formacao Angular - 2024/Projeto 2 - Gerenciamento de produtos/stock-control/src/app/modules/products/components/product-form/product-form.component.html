@@ -1,0 +1,13 @@
+<div>
+<form [formGroup]="addProductForm" (ngSubmit)="handleSubmitAddProduct">
+<div class="card flex flex-column md:flex-column gap-3">
+    <input pInputText placeholder="Nome" formControlName="name">
+    <p-dropdown
+    styleClass="w-full"
+    [options]="categoriesDatas"
+    [(ngModel)]="selectedCategory"
+    ></p-dropdown>
+</div>
+
+</form>        
+</div>
