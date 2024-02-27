@@ -1,3 +1,4 @@
+import { DialogService, DynamicDialogRef } from 'primeng/dynamicdialog';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ConfirmationService, MessageService } from 'primeng/api';
@@ -6,6 +7,7 @@ import { EventAction } from 'src/app/models/interfaces/products/event/EventActio
 import { GetAllProductsResponse } from 'src/app/models/interfaces/products/response/GetAllProducts.response';
 import { ProductsService } from 'src/app/services/products/products.service';
 import { ProductsDataTransferService } from 'src/app/shared/services/products/products-data-transfer.service';
+import { ProductFormComponent } from '../../components/product-form/product-form.component';
 
 @Component({
   selector: 'app-products-home',
@@ -15,13 +17,15 @@ import { ProductsDataTransferService } from 'src/app/shared/services/products/pr
 export class ProductsHomeComponent implements OnInit, OnDestroy {
   private readonly destroy$: Subject<void> = new Subject();
   public productsDatas: Array<GetAllProductsResponse> = [];
+  private ref!: DynamicDialogRef;
 
   constructor(
     private productService: ProductsService,
     private productDtService: ProductsDataTransferService,
     private router: Router,
     private messageService: MessageService,
-    private confirmationService: ConfirmationService
+    private confirmationService: ConfirmationService,
+    private dialogService: DialogService,
   ) {}
 
 
@@ -61,7 +65,21 @@ export class ProductsHomeComponent implements OnInit, OnDestroy {
 
   handleProductAction(event: EventAction):void {
     if(event) {
-      console.log("Dados do evento recebidos", event)
+      this.ref = this.dialogService.open(ProductFormComponent, {
+        header: event?.action,
+        width: '70%',
+        contentStyle: {overflow: 'auto'},
+        baseZIndex: 10000,
+        maximizable: true,
+        data: {
+          event: event,
+          productDatas: this.productsDatas,
+        },
+      });
+      this.ref.onClose.pipe(takeUntil(this.destroy$)).subscribe({
+        next: () => this.getAPIProductsDatas(),
+        error: (err) => console.log(err)
+      })
     }
   }
 
@@ -80,6 +98,7 @@ export class ProductsHomeComponent implements OnInit, OnDestroy {
       });
     }
   }
+
   deleteProduct(product_id: string) {
     if(product_id) {
       this.productService.deleteProduct(product_id).pipe(takeUntil(this.destroy$)).subscribe({
