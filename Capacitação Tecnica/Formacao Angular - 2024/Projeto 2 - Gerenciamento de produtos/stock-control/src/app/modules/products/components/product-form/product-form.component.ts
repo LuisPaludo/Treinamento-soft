@@ -44,7 +44,10 @@ export class ProductFormComponent implements OnInit, OnDestroy {
     price: ['', Validators.required],
     description: ['', Validators.required],
     amount: [0, Validators.required],
+    category_id: ['', Validators.required]
   });
+
+  public renderDropdown = false;
 
   public addProductAction = ProductEvent.ADD_PRODUCT_EVENT;
   public editProductAction = ProductEvent.EDIT_PRODUCT_EVENT;
@@ -69,9 +72,7 @@ export class ProductFormComponent implements OnInit, OnDestroy {
     this.productAction = this.ref.data;
     this.getAllCategories();
 
-    if(this.productAction?.event?.action === this.editProductAction && this.productAction?.productDatas) {
-      this.getProductSelectedDatas(this.productAction?.event?.id as string);
-    }
+    this.renderDropdown = true;
 
     if(this.productAction?.event.action === this.saleProductAction) {
       this.getProductDatas();
@@ -83,6 +84,9 @@ export class ProductFormComponent implements OnInit, OnDestroy {
       next: (response) => {
         if(response.length > 0) {
           this.categoriesDatas = response;
+          if(this.productAction?.event?.action === this.editProductAction && this.productAction?.productDatas) {
+            this.getProductSelectedDatas(this.productAction?.event?.id as string);
+          }
         }
       }
     })
@@ -132,9 +136,29 @@ export class ProductFormComponent implements OnInit, OnDestroy {
         price: this.editProductForm.value.price as string,
         description: this.editProductForm.value.description as string,
         product_id: this.productAction?.event?.id,
-        amount: this.editProductForm.value.amount as number
+        amount: this.editProductForm.value.amount as number,
+        category_id: this.editProductForm.value.category_id as string,
       }
-      // this.productsService.editProduct(requestEditProduct)
+      this.productsService.editProduct(requestEditProduct).pipe(takeUntil(this.destroy$)).subscribe({
+        next: (response) => {
+          this.messageService.add({
+            severity: 'success',
+            summary: "Sucesso",
+            detail: 'Produto editado com sucesso!',
+            life: 2500
+          });
+          this.editProductForm.reset();
+        },
+        error: (err) => {
+          this.messageService.add({
+            severity: 'error',
+            summary: 'Erro',
+            detail: 'Erro ao editar produto',
+            life: 2500
+          });
+          this.editProductForm.reset();
+        }
+      })
     }
   }
 
@@ -152,7 +176,8 @@ export class ProductFormComponent implements OnInit, OnDestroy {
         name: this.productSelectedDatas.name,
         price: this.productSelectedDatas.price,
         amount: this.productSelectedDatas.amount,
-        description: this.productSelectedDatas.description
+        description: this.productSelectedDatas.description,
+        category_id: this.productSelectedDatas.category.id,
       });
     }
 

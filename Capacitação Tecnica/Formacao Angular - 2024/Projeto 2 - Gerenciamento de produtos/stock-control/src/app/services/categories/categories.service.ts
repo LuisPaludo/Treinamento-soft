@@ -24,7 +24,19 @@ export class CategoriesService {
     private cookie: CookieService
   ) { }
 
+  createNewCategory(requestDatas: {name: string}): Observable<Array<GetCategoriesResponses>> {
+    return this.http.post<Array<GetCategoriesResponses>>(`${this.API_URL}/category`,requestDatas,this.httpOptions);
+  }
+
   getAllCategories(): Observable<Array<GetCategoriesResponses>> {
     return this.http.get<Array<GetCategoriesResponses>>(`${this.API_URL}/categories`, this.httpOptions);
+  }
+
+  deleteCategory(requestDatas: {category_id: string}): Observable<void> {
+    return this.http.delete<void>(`${this.API_URL}/category/delete`,{
+    ...this.httpOptions, params: {
+      category_id: requestDatas?.category_id
+    }}
+    )
   }
 }

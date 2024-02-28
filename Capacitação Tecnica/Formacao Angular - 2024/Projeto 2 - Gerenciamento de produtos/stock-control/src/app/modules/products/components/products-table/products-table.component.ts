@@ -20,8 +20,8 @@ export class ProductsTableComponent {
 
   handleProductEvent(action:string, id?:string):void {
     if(action && action !== '') {
-      const productEventeData = id && id == "" ? {action, id} : {action};
-      this.productEvent.emit(productEventeData);
+      const productEventData = id && id == "" ? {action} : {action, id};
+      this.productEvent.emit(productEventData);
     }
   }
 
