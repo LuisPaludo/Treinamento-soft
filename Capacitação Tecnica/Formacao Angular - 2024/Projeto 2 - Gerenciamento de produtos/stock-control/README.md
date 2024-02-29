@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Tópicos Abordados nesse projeto:
+
+- Consumo de APIs com os métodos get, post, put e delete;
+- Utilização da biblioteca PrimeNg;
+- Armazenamento de informações em cookies;
+- Fomulários reativos;
+- Processo de autenticação de usuário;
+- Utilização da biblioteca toast;
+- Implementação de LazyLoading;
+- Criação e utilização de serviços;
+- Rotas personalizadas;
+- Implementação de guarda de rotas;
+- Criação de gráficos com a biblioteca chart.js;
+- Criação e utilização de HotObservables (Subjects);
+- Estratégias de prevenção de Memory Leak;
+- Utilização de multiplos módulos em um mesmo projeto;
+- Utilização de Dumb Components no projeto;
+- Utiliação de inputs e Outputs;
+- Implementação de estratégias de Preloading;
+- Introdução ao conceito de ViewChild;
