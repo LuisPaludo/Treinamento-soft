@@ -7,13 +7,13 @@ import { GetCategoriesResponses } from 'src/app/models/interfaces/categories/res
 @Component({
   selector: 'app-categories-table',
   templateUrl: './categories-table.component.html',
-  styleUrls: []
+  styleUrls: [],
 })
 export class CategoriesTableComponent {
-
   @Input() public categories: Array<GetCategoriesResponses> = [];
   @Output() public categoryEvent = new EventEmitter<EditCategoryAction>();
-  @Output() public deleteCategoryEvent = new EventEmitter<DeleteCategoryAction>();
+  @Output() public deleteCategoryEvent =
+    new EventEmitter<DeleteCategoryAction>();
 
   public categorySelected!: GetCategoriesResponses;
 
@@ -22,8 +22,13 @@ export class CategoriesTableComponent {
 
   handleDeleteCategoryEvent(category_id: string, categoryName: string): void {
     if (category_id !== '' && categoryName !== '') {
-      this.deleteCategoryEvent.emit({category_id, categoryName});
+      this.deleteCategoryEvent.emit({ category_id, categoryName });
     }
   }
 
+  handleCategoryEvent(action:string, id?:string, categoryName?:string):void {
+    if (action && action !== '') {
+      this.categoryEvent.emit({action, id, categoryName});
+    };
+  }
 }
