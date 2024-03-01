@@ -33,3 +33,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Utilização do método mutate e computed de um signal;
 - Injeção de dependências utilizando o método **inject** e não um constructor;
 - Utilização da biblioteca material do Angular;
+- SchoolService é uma introdução e implementação dos métodos -of, from, zip, map, filter e switchmap- da biblioteca rxjs;
