@@ -14,6 +14,8 @@ Os cursos contemplam assuntos como Tecnologia e SoftSkills. Abaixo segue uma lis
 
 **Formação Angular - 2024** por Marcos Júnior Passarella Naves em [Udemy](https://softfocus.udemy.com/course/curso-de-angular-15-do-iniciante-ao-especialista/learn).
 
+**Intro To PostgreSQL Databases With PgAdmin For Beginners** por John Elder em [Udemy](https://softfocus.udemy.com/course/intro-to-postgresql-databases-with-pgadmin/learn/)
+
 
 ## Soft Skills
 
