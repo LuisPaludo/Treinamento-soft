@@ -26,3 +26,5 @@ Os cursos contemplam assuntos como Tecnologia e SoftSkills. Abaixo segue uma lis
 **Curso de Criatividade e Inovação** por Maurício Gois em [Udemy](https://softfocus.udemy.com/course/criatividade-e-inovacao/learn)
 
 **Hiper-Foco & Hiper-Produtividade** por Hackers do Estudo em [Udemy](https://softfocus.udemy.com/course/focoeprodutividade/learn)
+
+**O Guia COMPLETO para Alta Produtividade + 4 Cursos Extras** por Gustavo Farias em [Udemy](https://softfocus.udemy.com/course/guia-completo-alta-produtividade/learn).
