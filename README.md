@@ -16,6 +16,10 @@ Os cursos contemplam assuntos como Tecnologia e SoftSkills. Abaixo segue uma lis
 
 **Intro To PostgreSQL Databases With PgAdmin For Beginners** por John Elder em [Udemy](https://softfocus.udemy.com/course/intro-to-postgresql-databases-with-pgadmin/learn/)
 
+**Curso de Django Web Framework e Django Rest Framework (DRF)** por Luiz Otávio Miranda em [Udemy](https://softfocus.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/l)
+
+**Crie APIs REST com Python e Django REST Framework: Essencial** por Geek University em [Udemy](https://softfocus.udemy.com/course/criando-apis-rest-com-django-rest-framework-essencial/learn/)
+
 
 ## Soft Skills
 
