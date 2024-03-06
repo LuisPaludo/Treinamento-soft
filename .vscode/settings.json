@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "Capacitação Tecnica"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
