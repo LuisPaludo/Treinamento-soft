@@ -36,3 +36,5 @@ Os cursos contemplam assuntos como Tecnologia e SoftSkills. Abaixo segue uma lis
 **Dominando a escuta ativa** por Pilar Sanchez Albaladejo em [Udemy](https://softfocus.udemy.com/course/dominando-a-escuta-ativa/learn/).
 
 **Psicologia Cognitivo-Comportamental - Certificação** por José Mauro Barbosa Reis em [Udemy](https://softfocus.udemy.com/course/psicologia-cognitivo-comportamental/learn)
+
+**Como Desenvolver sua Autodisciplina** por Fred Graef em [Udemy](https://softfocus.udemy.com/course/como-desenvolver-sua-autodisciplina/learn/)
