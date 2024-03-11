@@ -34,3 +34,5 @@ Os cursos contemplam assuntos como Tecnologia e SoftSkills. Abaixo segue uma lis
 **O Guia COMPLETO para Alta Produtividade + 4 Cursos Extras** por Gustavo Farias em [Udemy](https://softfocus.udemy.com/course/guia-completo-alta-produtividade/learn).
 
 **Dominando a escuta ativa** por Pilar Sanchez Albaladejo em [Udemy](https://softfocus.udemy.com/course/dominando-a-escuta-ativa/learn/).
+
+**Psicologia Cognitivo-Comportamental - Certificação** por José Mauro Barbosa Reis em [Udemy](https://softfocus.udemy.com/course/psicologia-cognitivo-comportamental/learn)
